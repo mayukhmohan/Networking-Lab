@@ -1,0 +1,42 @@
+10.2.1.40
+
+rtt min/avg/max/mdev = 23.420/23.829/25.174/0.688 ms
+
+5 packets transmitted, 5 received, 0% packet loss
+
+size of packet that is sent to <AnyURL> server: The 56(84)in the first line 
+of the example below indicates that the payload of "dummy data" contained in
+the ICMP message is 56 bytes and when combined with the 28 bytes of ICMP 
+header data that tells the message where to go, the total packet size is 
+(84) bytes.
+
+64 bytes received
+
+64 bytes - 56 data bytes and 8 bytes of protocol reader information
+
+
+cs.iiests.ac.in          ether   00:1e:67:0e:86:df
+hanau.cs.iiests.ac.in    ether   9c:b6:54:8c:9e:8c
+
+
+
+www.google.co.in.       71      IN      A       216.58.196.195
+
+SERVER: 10.2.0.1#53(10.2.0.1)
+
+
+
+traceroute www.google.co.in
+traceroute to www.google.co.in (216.58.196.195), 30 hops max, 60 byte packets
+ 1  cs.iiests.ac.in (10.2.0.1)  0.283 ms  0.244 ms  0.215 ms
+ 2  * * *
+ 3  10.119.235.13 (10.119.235.13)  0.585 ms  0.573 ms  0.486 ms
+ 4  10.173.35.185 (10.173.35.185)  48.207 ms  48.208 ms  48.183 ms
+ 5  10.255.237.25 (10.255.237.25)  39.527 ms  39.735 ms  39.733 ms
+ 6  10.1.200.138 (10.1.200.138)  38.939 ms  38.332 ms  40.506 ms
+ 7  10.119.234.162 (10.119.234.162)  38.058 ms  38.197 ms  38.406 ms
+ 8  72.14.194.160 (72.14.194.160)  37.925 ms 72.14.195.56 (72.14.195.56)  24.672 ms  24.627 ms
+ 9  108.170.251.97 (108.170.251.97)  25.285 ms  25.524 ms  25.478 ms
+10  216.239.56.253 (216.239.56.253)  26.196 ms  26.140 ms 216.239.47.99 (216.239.47.99)  27.569 ms
+11  del03s06-in-f3.1e100.net (216.58.196.195)  25.920 ms  25.956 ms  26.006 ms
+
